@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ekoulé Maneng Charly Karl">
+        <meta name="description" content="An File Metadata Microservice">
+        <title>File Metadata Microservice</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Metafile</h1>
+        <p>an file metadata microservice</p>
+        <hr>
+        <main>
+            <form action="/api/fileanalyse" method="POST" enctype="multipart/form-data">
+                <h2>Upload a file to obtain its metadata</h2>
+                <input type="file" name="upfile" placeholder="username" required>
+                <button type="submit">Upload</button>
+            </form>
+        </main>
+    </body>
+</html>
